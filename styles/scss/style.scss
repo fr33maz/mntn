@@ -1,12 +1,22 @@
 @forward "globals";
 
-
-
 .wrapper {
     max-width: 1462px;
     display: flex;
     margin: auto;
     justify-content: space-between;
+}
+.number {
+    color: #fff;
+    font-family: var(--redhat);
+    font-size: 240px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 240px;
+    opacity: 0.1;
+    position: absolute;
+    left: -170px;
+    top: -100px;
 }
 .header {
     position: relative;
@@ -143,6 +153,7 @@
 }
 .container {
     align-self: center;
+    position: relative;
 }
 .get-started {
     background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0b1d26 61.38%);
@@ -186,7 +197,6 @@
 .directions {
     background: var(--background-color);
     padding-bottom: 200px;
-
 }
 .footer {
     padding-bottom: 120px;

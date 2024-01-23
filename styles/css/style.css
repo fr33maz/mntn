@@ -82,6 +82,19 @@ body {
   justify-content: space-between;
 }
 
+.number {
+  color: #fff;
+  font-family: var(--redhat);
+  font-size: 240px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 240px;
+  opacity: 0.1;
+  position: absolute;
+  left: -170px;
+  top: -100px;
+}
+
 .header {
   position: relative;
   display: flex;
@@ -217,6 +230,7 @@ body {
 
 .container {
   align-self: center;
+  position: relative;
 }
 
 .get-started {
