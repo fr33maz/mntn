@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "redhat";
+    src:
+        url("../../fonts/RedHatText-VariableFont_wght.ttf") format("embedded-opentype"),
+        url("../../fonts/RedHatText-VariableFont_wght.ttf") format("woff2"),
+        url("../../fonts/RedHatText-VariableFont_wght.ttf") format("woff"),
+        url("../../fonts/RedHatText-VariableFont_wght.ttf") format("truetype"),
+        url("../../fonts/RedHatText-VariableFont_wght.ttf") format("svg");
+}
+@font-face {
+    font-family: "georgia";
+    src:
+        url("../../fonts/georgia.ttf") format("embedded-opentype"),
+        url("../../fonts/georgia.ttf") format("woff2"),
+        url("../../fonts/georgia.ttf") format("woff"),
+        url("../../fonts/georgia.ttf") format("truetype"),
+        url("../../fonts/georgia.ttf") format("svg");
+}
